@@ -23,11 +23,11 @@ CTE
 2. Filtered low-volume but high-value shipments (amount > ₹2,000 and boxes < 100).
 3. Analyzed monthly and yearly trends by filtering sales in 2022 and sorting by amount.
 4. Segmented sales into categories using CASE:
-Under ₹1,000
-Under ₹5,000
-Under ₹10,000
-₹10,000 or more
-5.Grouped employees by sales teams to understand team-wise distribution using GROUP BY.
-6.Found active salespersons during the first week of January 2022 using JOIN and BETWEEN date filter.
+  Under ₹1,000
+  Under ₹5,000
+  Under ₹10,000
+  ₹10,000 or more
+5. Grouped employees by sales teams to understand team-wise distribution using GROUP BY.
+6. Found active salespersons during the first week of January 2022 using JOIN and BETWEEN date filter.
 7. Focused on specific teams like 'Delish' and 'Jucies' using OR and IN operators.
 8. Filtered salesperson names containing "B" using the LIKE operator for name-based analysis.
